@@ -86,6 +86,7 @@ nav ul li a:hover::after{
 .bttn{
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 .btttn{
     display: block;
@@ -396,7 +397,11 @@ nav .fa-solid{
     .subtitle{
         font-size: 50px;
     }
-
+    .bttn {
+    display: inline-block;
+    width: 100%;
+    margin: 5px 0;
+   }
 
     
     .about-col-1, .about-col-2{
