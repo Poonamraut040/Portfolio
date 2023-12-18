@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Punam's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link  href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <!-- <div class="container"> -->
+        <nav>
+            <div class="left">
+                <span class="purple">P</span>oonam's <span class="purple">P</span>ortfolio...
+            </div>
+            <div class="right">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </div>
+        </nav>
+        <div class="header-text">
+            
+            <h1>Hi, My name is <span>Poonam</span> <br> and I'm a passionate  </h1>
+            
+            <span id="element"></span>
+            <div class="bttn">
+            <a href="https://leetcode.com/Poonamraut040/" class="btttn">Leetcode</a>
+            <a href="https://www.linkedin.com/in/poonam-raut-47a1b7227/" class="btttn">linkedin</a>
+        </div>
+        </div>
+          <!-- </div> -->
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="crpp.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle"><span>A</span>bout <span>M</span>e</h1>
+                    <p><br></p>
+                    <h2>SATI'25 || FRONTEND DEVELOPER || MENTOR@GITSETCODE || BTECH-CSE</h2>
+                    <p><br>
+                    My Name Is Poonam Raut, I Am An Undergraduate Student At Samrat Ashok Technological Institute, Vidisha, M.P.
+                    Currently Pursuing My Bachelors Of Technology In Computer Science Branch. I Am A Passionate Student Eager To develope
+                    My Skills In Tech Field And Make A Positive Imapct In The World. I Am Working On My Problem Solving and development Skill.
+                    I Have A Good Knowledge Of C, C++, HTML, CSS, Javascript, Artificial Intelligence, Operating System, Linux.
+                    Apart From This, I Am A Member Of Enterpreneurship Cell Of My College, Coding Club and NCC.
+                       
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Eductaion</p>
+
+                    </div>
+                    <div class="tab-contents active-tabs" id="skills">
+                        <ul>
+                            <li><span>Frontend Developer</span><br> Designing Web/App interfaces</li>
+                            <li><span>language</span><br>C, C++, Javascript</li>
+                            <li><span>Technologies</span><br>HTML. CSS, GitHub</li>
+                            <li><span>Concept</span><br>Object oriented programming, DBMS, Operating System, APIs</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br> Btech At Samrat Ashok Technological Institute, Vidisha (M.P)<br> CSE | CGPA: 8.67</li>
+                            <li><span>2019-2021</span><br>Higher Secondary Education from Balerao Junior College, MH</li>
+                            <li><span>2019</span><br>Schooling from Sausar, MP</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div>
+        <!-- ---------portfolio--------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="subtitle"> <span>M</span>y <span>W</span>ork</h1>
+                <div class="worklist">
+                    <div class="work">
+                        <img src="wea.jpg">
+                        <div class="layer">
+                            <h3>Weather App</h3>
+                            <p>It is a Weather forecasting app, which give weather information of any place.<br> This is created using HTML/CSS/JS and APIs.</p>
+                            <a href="https://poonamraut040.github.io/weather-app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="amazonii.jpg">
+                        <div class="layer">
+                            <h3>Amazon clone</h3>
+                            <p>It is a clone of Amazon.in website. This interface is created using HTMl/CSS.</p>
+                            <a href="https://poonamraut040.github.io/Amazon-Clone/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="gaming.jpg">
+                        <div class="layer">
+                            <h3>Paddle Ball Game</h3>
+                            <p>This is mobile game which is create using python. Different libraries has been used to create it.</p>
+                            <a href="https://github.com/Poonamraut040/paddle-ball-game/tree/main"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="slleep.jpg">
+                        <div class="layer">
+                            <h3>Anti sleep Alarm Device</h3>
+                            <p>It is hardware and software based project created using IOT embedded sensors and arduino.</p>
+                            <a href="https://drive.google.com/drive/folders/1R2Xa-th5b5WLh_HGpzNzltCO1jhZ6wfH"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!-- -------contact------ -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle"><span>C</span>ontact <span>M</span>e</h1>
+                        <p><a href="https://www.poonamraut040@gmail.com"></a><i class = "fas fa-paper-plane"></i>poonamraut040@gmail.com</p>
+                        <div class="social-icon">
+                            <a href="https://www.linkedin.com/in/poonam-raut-47a1b7227/"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://twitter.com/PoonamR47035945?t=n9Fx6SmX-X9wIQhteFeWdg&s=08"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/poonam_raut040/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://github.com/Poonamraut040"><i class="fab fa-github"></i></a>
+                        </div>
+                        <a href="C:\Users\Poonam Raut\Downloads\real resume Poonam.pdf" download class="butn">Download Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <br>
+                        <br>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <br>
+                        <br>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="butn">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="https://kit.fontawesome.com/abc8aedb0a.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+
+
+            var typed = new Typed('#element', {
+            strings: ['Frontend developer'],
+            typeSpeed: 50,
+            });
+ 
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents =document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tabs");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tabs");
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+            sidemenu.style.right = "-200px";
+}
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbykP8l_H6cPJZzUdxLJBl3GXyxVIupg2upbQUfkKFbF-V0WiH1J-QXb7OqePH6ij5w5fA/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+</body>
+</html>
