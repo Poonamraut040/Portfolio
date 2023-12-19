@@ -425,15 +425,16 @@ nav .fa-solid{
         font-size: 0.9rem;
     }
     .tab-links{
-        font-size: 16px;
+        font-size: 1rem;
         margin-right: 20px;
+        font-weight: 100;
     }
     .tab-title p{
         font-size: 1rem;
         font-weight: 100;
     }
     .tab-contents{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
    
