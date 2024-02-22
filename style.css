@@ -351,7 +351,7 @@ nav .fa-solid{
 }
 
 /* ------------css for small screen------ */
-@media only screen and (max-width: 600px){
+@media(max-width: 600px){
     #header{
         background-image: url(ppppp.jpg);
         /* width: 100%; */
